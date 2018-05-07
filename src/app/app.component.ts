@@ -16,6 +16,9 @@ export class AppComponent {
 
   constructor (private http: HttpClient) {
     this.httpClient = http;
+
+    // Start with some data
+    this.onBtnClick();
   }
 
   onBtnClick() {
